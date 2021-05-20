@@ -143,14 +143,14 @@
         location: 'Baliqchi, Andijan',
         date: 'Today 20:25'
       },
-      {
-        id: 8,
-        img: 'https://cdnimg.rg.ru/img/content/188/66/92/cadillac_escalade_11_d_850.jpeg',
-        title: 'Vintage Typewriter to post awesome stories about UI design and webdev.',
-        cost: '18 000 000 sum',
-        location: 'Baliqchi, Andijan',
-        date: 'Today 20:25'
-      }
+      // {
+      //   id: 8,
+      //   img: 'https://cdnimg.rg.ru/img/content/188/66/92/cadillac_escalade_11_d_850.jpeg',
+      //   title: 'Vintage Typewriter to post awesome stories about UI design and webdev.',
+      //   cost: '18 000 000 sum',
+      //   location: 'Baliqchi, Andijan',
+      //   date: 'Today 20:25'
+      // }
       
 ]
 
