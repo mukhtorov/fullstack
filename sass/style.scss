@@ -1,0 +1,39 @@
+@import "config";
+@import "utils";
+@import "buttons";
+
+.navbar {
+  display: flex;
+  background-color: $nav-bg-color;
+  color: white;
+  padding: 10px 20px;
+  padding-right: 0;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.item-container {
+  display: flex;
+}
+
+.box {
+  width: 400px;
+  height: 430px;
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 4px;
+}
+.con {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.container-con4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@import "mobile";
+@import "tablet";
+@import "desktop";

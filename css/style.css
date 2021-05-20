@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 20px 300px;
+  background-color: #eef2f5;
+}
+
+.nav-btn, .submit-btn {
+  padding: 8px 20px;
+  margin: 5px;
+  margin-right: 50px;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 22px;
+  color: white;
+  border: 1px solid #cac6c6;
+}
+
+.nav-btn:hover, .submit-btn:hover {
+  background-color: #ec283a;
+  border: 1px solid #ec283a;
+}
+
+.nav-btn:active, .submit-btn:active {
+  transform: scale(0.98);
+}
+
+.submit-btn {
+  width: 200px;
+  background-color: #ec283a;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  background-color: #24252a;
+  color: white;
+  padding: 10px 20px;
+  padding-right: 0;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.item-container {
+  display: flex;
+}
+
+.box {
+  width: 400px;
+  height: 430px;
+  border: 1px solid #202020;
+  border-radius: 4px;
+}
+
+.con {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.container-con4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 350px) {
+  .container {
+    font-size: 8px;
+    color: red;
+  }
+  .container-content {
+    font-size: 8px;
+    color: red;
+  }
+}
+/*# sourceMappingURL=style.css.map */

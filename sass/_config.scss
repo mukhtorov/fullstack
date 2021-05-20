@@ -1,0 +1,21 @@
+$primary-color: rgb(71, 71, 245);
+$success-color: rgb(57, 243, 0);
+$danger-color: rgb(243, 57, 57);
+$warning-color: rgb(243, 241, 123);
+$default-color: transparent;
+$nav-bg-color: #24252a;
+
+$active-color: #ec283a;
+
+@function getColor($color) {
+  @if (lightness($color) > 70) {
+    @return red;
+  } @else {
+    @return coral;
+  }
+}
+
+@mixin setCommonDesign($color) {
+  color: $color;
+  background: $color;
+}

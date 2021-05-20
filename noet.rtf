@@ -1,0 +1,92 @@
+pre requirement: => nodejs, npm
+to run: sass --watch fileName style.css 
+
+INSTALLATION
+ubuntu => sudo apt install ruby-sass
+windows => npm i sass
+
+Why use sass?
+
+- sass vs scss => scss more like pug file in html
+
+- can use variable
+=============================
+
+- break into different files
+    _base.sass is not compiled in browser
+    make main sass file, and import every time you need
+
+=============================
+
+- Nesting styles
+    ex: ol, li{} => ol{ li{ }}
+=============================
+
+- Sass is like programming language
+
+- Inheritance
+
+- Operation
+
+- Conditionals
+   =============================
+
+=============================
+
+- if err then state on console
+=============================
+
+- nesting the class
+   .main{
+       h1{
+           color: red;
+       }
+   }
+=============================
+
+- base class name => main-container == &-container
+=============================
+
+- _config.scss => not compiled
+    @import 'config';
+=============================
+
+- _utils.scss => move container class and import 
+=============================
+
+- _button.scss => give design for all buttons
+=============================
+
+- %common{...} => common css
+   .btn-primary{
+       @extend %common
+   }
+   .btn-seconday{
+       @extend %common
+   }
+=============================
+- lighten, darken
+=============================
+
+- lightness($color) ==> (0.21 × R) + (0.72 × G) + (0.07 × B) 
+=============================
+
+- @function getColor($color){
+    @if(lightness($color)){
+        @return
+    }
+}
+=============================
+
+- @mixin setBgColor($color){
+    background-color: $color;
+    color: getColor($color)
+}
+
+@include setBgColor(@primary-color)
+
+=============================
+
+- _mobile.scss => @media(max-width: 700){
+    
+}
