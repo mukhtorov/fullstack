@@ -156,19 +156,19 @@
 
 
 
-// var mapdata = data.map((index, id) => {
-//     // console.log(index.cost)
-//     return index.id
-// })
+var mapdata = data.map((index, id) => {
+    // console.log(index.cost)
+    return index.id
+})
 
-// // for (let value of data) {
-// //     console.log(value.id)
-// // }
+// for (let value of data) {
+//     console.log(value.id)
+// }
 
-// data.forEach((index, id) => {
-//     // console.log(index.cost)
+data.forEach((index, id) => {
+    // console.log(index.cost)
 
-// })
-// console.log(mapdata)
+})
+console.log(mapdata)
 
 
